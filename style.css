@@ -6,28 +6,31 @@
 }
 #searchbar{
     margin-top: 20px;
+    
 
 }
 
 #search-text{
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 550px;
+    width: 480px;
     outline: none;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 25px;
-    border: solid 2px rgb(238, 238, 238)
+    border: solid 2px rgb(238, 238, 238);
+    
 
 }
-
 #search-icon{
     position:absolute;
-    margin-top: 130px;
-    margin-left:-390px;
-   
+    margin-top:15px;
+    margin-left:-545px;
+
 }
 
 #mic-icon{
     position: absolute;
-    margin-top: 130px;
-    margin-left: 100px;
-}
+    margin-top: 15px;
+    margin-left: -35px;
+
