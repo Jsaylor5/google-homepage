@@ -33,4 +33,21 @@
     position: absolute;
     margin-top: 15px;
     margin-left: -35px;
+}
 
+#buttons{
+    padding-top: 20px;
+}
+#button{
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+.spacer{
+    display:inline-block;
+    width: 5px;
+    height: auto;
+}
