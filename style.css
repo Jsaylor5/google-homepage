@@ -1,30 +1,26 @@
 header * {
     display: inline;
     text-decoration: none;
-
 }
+
 header{
     align-items: center;
     height: 10px;
     margin-top: 15px;
-    
-    
 }
+
 header li{
     margin: 10px;
 }
 
 .left-links{
     float:left;
-    
 }
 
-.center-links{
-    text-align: center;
-}
 .right-links{
     float: right;
 }
+
 #sign-in-button{
     background-color: rgb(26,115,232);
     color: white;
@@ -33,17 +29,15 @@ header li{
     height: 35px;
     padding-left: 25px; 
     padding-right: 25px;
-
 }
+
 #middle{
     margin-top: 300px;
     text-align: center;
-
 }
+
 #searchbar{
     margin-top: 20px;
-    
-
 }
 
 #search-text{
@@ -55,14 +49,12 @@ header li{
     padding-right: 40px;
     border-radius: 25px;
     border: solid 2px rgb(238, 238, 238);
-    
-
 }
+
 #search-icon{
     position:absolute;
     margin-top:15px;
     margin-left:-545px;
-
 }
 
 #mic-icon{
@@ -74,6 +66,7 @@ header li{
 #buttons{
     padding-top: 20px;
 }
+
 #button{
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
@@ -82,32 +75,49 @@ header li{
     padding-left: 15px; 
     padding-right: 15px;
 }
+
 .spacer{
     display:inline-block;
     width: 5px;
     height: auto;
 }
+
+#bottom{
+    width: 100%;
+    display: flex;
+}
+
 footer * {
-    display: inline;
+    display: flex;
     text-decoration: none;
 }
+
 footer {
-    align-items: center;
     background-color: rgb(238, 238, 238);
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    
+    flex-direction: row;
 }
+
 #left-footer{
+    flex: 1;
     justify-content: flex-start;
 }
+
 #center-footer{
-    text-align: center;
+    flex: 1;
 }
+
 #right-footer{
+    flex: 1;
     justify-content: flex-end;
+}
+
+footer li{
+    margin: 10px;
+}
+
+#leaf{
+    height: 30px;
 }
